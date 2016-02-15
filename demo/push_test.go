@@ -1,13 +1,12 @@
-package main
+package demo
 
 import (
 	"testing"
 	"fmt"
-	"getui-sdk/util"
 )
 
 func Test_Send_Push_Run(t *testing.T) {
-	pushList := make([]util.PushField, 2)
+	pushList := make([]PushField, 2)
 	for i, _ := range pushList {
 		pushList[i].Id = i
 		pushList[i].Extra = "/message"
@@ -20,5 +19,5 @@ func Test_Send_Push_Run(t *testing.T) {
 		pushList[i].TargetId = 30874543
 	}
 	// 不要将false改为true 改为true会全员发广播
-	util.SendPush(pushList, false)
+	SendPush(pushList, false)
 }

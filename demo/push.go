@@ -1,4 +1,4 @@
-package util
+package demo
 
 import (
 	"log"
@@ -9,6 +9,7 @@ import (
 	t "getui-sdk/igetui/template"
 	"strings"
 	"sync"
+	"getui-sdk/util"
 )
 
 // 常量
@@ -51,7 +52,7 @@ func (p *PushField) toString() string {
 // 取得个推配置
 var GetGeTuiConf = func() GeTuiConf {
 	GeTuiConf := GeTuiConf{}
-	err := YamlFileDecode(GE_TUI_CONF_PATH, &GeTuiConf)
+	err := util.YamlFileDecode(GE_TUI_CONF_PATH, &GeTuiConf)
 	if err != nil {
 		panic(err)
 	}
