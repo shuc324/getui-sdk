@@ -1,6 +1,6 @@
 package template
 import "strconv"
-import "med3-go-worker/lib/getui/protobuf"
+import "getui-sdk/protobuf"
 import "fmt"
 import "time"
 import "strings"

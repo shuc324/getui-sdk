@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"med3-go-worker/lib/getui/igetui"
+	"getui-sdk/igetui"
 	"io"
 	"io/ioutil"
 	"net/http"

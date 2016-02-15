@@ -1,6 +1,6 @@
 package igetui
 
-import "med3-go-worker/lib/getui/igetui/template"
+import "getui-sdk/igetui/template"
 
 type IGtMessage struct {
 	IsOffline         bool

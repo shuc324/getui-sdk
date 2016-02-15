@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	i "med3-go-worker/lib/getui/igetui"
-	t "med3-go-worker/lib/getui/igetui/template"
-	p "med3-go-worker/lib/getui/push"
+	i "getui-sdk/igetui"
+	t "getui-sdk/igetui/template"
+	p "getui-sdk/push"
 	"time"
 )
 

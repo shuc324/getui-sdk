@@ -1,6 +1,6 @@
 package template
 
-import "med3-go-worker/lib/getui/protobuf"
+import "getui-sdk/protobuf"
 import proto "github.com/golang/protobuf/proto"
 
 type NotyPopLoadTemplate struct {
