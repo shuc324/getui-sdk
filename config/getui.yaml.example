@@ -1,0 +1,5 @@
+---
+host: "http://sdk.open.api.igexin.com/apiex.htm"
+app_id: "appid"
+app_key: "appkey"
+master_secret: "mastersercret"
