@@ -1,0 +1,2 @@
+{"action":"pushMessageToAppAction","appIdList":["aK6jeksP5C7CsjSSEqLAA3"],"appkey":"tpDVam96sY8pxhwBupJ462","clientData":"CgASC3B1c2hNZXNzYWdlGgAiFnRwRFZhbTk2c1k4cHhod0J1cEo0NjIqFmFLNmpla3NQNUM3Q3NqU1NFcUxBQTMyADoICgASABoAIgBCBwgBEAAYrk5CGQiuThADGGTiCADqCAYKABIAGgDwCAD4CGRCBAhkEAdCBwgBEAAYrk5CGQiuThADGGTiCADqCAYKABIAGgDwCAD4CGRCBAhkEAc=","isOffline":true,"offlineExpireTime":259200000,"phoneTypeList":["ANDROID","IOS"],"provinceList":["浙江","上海"],"pushType":"TransmissionMsg","transmissionContent":"这是一条toApp测试消息","type":2}
+map[result:ok contentId:OSA-0905_OM7jOj5j077NXSctreRoC6]
